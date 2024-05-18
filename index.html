@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #liner::before {
+            color: green;
+            content: "visitor@localhost:~$"
+        }
+    </style>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Terminal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Adam TANWEER | Web Terminal</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 <body>
-    <div class="terminal">
-        <div id="terminal-output"></div>
-        <div class="terminal-input">
-            <span id="prompt">$</span>
-            <div class="input-wrapper">
-                <input type="text" id="command-input" autofocus>
-                <span class="blinking-cursor" id="blinking-cursor"></span>
-            </div>
+    <div id = "terminal">
+        <a id = "before">
+        </a>
+    </div>
+    <div id ="command" onclick="$('texter').focus();">
+        <textarea type="text" id="texter" onkeyup="typeIt(this, event)" onkeydown="typeit(this, event)" onkeydown="typeIt(this, event); 
+        moveIt(this.value.length, event)" onkeypress="typeIt(this, event);" autofocus=""></textarea>
+        <div id="liner">
+            <span id ="typer"></span><b class="cursor" id="cursor" style="left: 0px"></b>
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="commands.js"></script>
+    <script src="main.js"></script>
+    
 </body>
 </html>
