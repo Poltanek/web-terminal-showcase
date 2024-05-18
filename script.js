@@ -1,7 +1,7 @@
 var before = document.getElementById('before');
 var liner = document.getElementById('liner');
-var command = document.getElementById('command');
-var textarea = document.getElementById('textarea');
+var command = document.getElementById('typer');
+var textarea = document.getElementById('texter');
 var terminal = document.getElementById('terminal');
 
 var git = 0;
@@ -23,8 +23,7 @@ console.log(
     "%cYou hacked my password! You're a hacker!",
     "color: #04ff00; font-weight: bold; font-size: 24px;"
 );
-console.log("%cPassword: '" + password + "' - Wonder what you can do with that?"),
-    "color: grey; font-weight: bold; font-size: 24px;";
+console.log("%cPassword: '" + password + "'Wonder what you can do with that?"), "color: grey";
 
 textarea.value = "";
 command.innerHTML = textarea.value;
