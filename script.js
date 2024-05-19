@@ -8,7 +8,6 @@ var git = 0;
 var pw = false;
 var pwd = false;
 var commands = [];
-
 let currentDirectory = "";
 
 setTimeout(function() {
@@ -39,7 +38,7 @@ function enterKey(e) {
             pwd = true;
         }
         
-        if (pwd && e.keycCode == 13) {
+        if (pwd && e.keyCode == 13) {
             loopLines(secret, "color2 margin", 120);
             command.innerHTML = "";
             textarea.value = "";
@@ -126,8 +125,8 @@ function addLine(text, style, time) {
     }, time);
 }
 
-function loopLines(array, style, time) {
-    for (let i = 0; i < array.length; i++) {
-        addLine(array[i], style, i * time);
-    }
+function loopLines(name, style, time) {
+    name.forEach(function(item, index) {
+        addLine(item, style, index * time);
+    });
 }
