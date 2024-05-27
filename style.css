@@ -1,17 +1,26 @@
+/* 
+Description: Cursor is a simple, clean and responsive theme for your terminal.
+Author: @Poltanek
+Version: 1.0
+Tags: terminal, theme, clean, simple, responsive, minimal
+Text Domain: cursor */
+
+
 body {
     margin: 0;
     padding: 15px 20px;
     min-height: 99%;
     width: 100%;
     min-width: 550px;
-    color: #5199;
-    background: black;
+    color: #B89076;
+    background: #1b120d;
     font-family: cursor, monospace;
     overflow-x: hidden;
+    font-size: 15px;
 }
 
 ::selection {
-    background: #5199;
+    background: rgba(255, 255, 255, 0.6);
     color: black;
 }
 
@@ -117,8 +126,10 @@ p {
     color: #DCDCCC;
 }
 
+
+ /* text variant */
 .color2 {
-    color: #B89076;
+    color: #9C8394;
 }
 
 .command {
@@ -134,7 +145,7 @@ p {
     color: #B89076;
 }
 .white {
-    color: #fff;
+    color: white;
 }
 
 .inherit,

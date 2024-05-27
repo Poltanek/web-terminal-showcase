@@ -6,14 +6,12 @@ var email = "";
 whois = [
     "<br>",
     "Hello, I'm Adam Tanweer, a Computer Science student at the University of Winchester.",
-    
-    
     "<br>"
 ];
 
 whoami = [
     "<br>",
-    "Visitor.",
+    "You are a visitor to my website. Feel free to explore and learn more about me.",
     "<br>"
 ];
 
@@ -52,12 +50,15 @@ help = [
     '<span class="command">ls</span>    Display a list of files/folders',
     '<span class="command">cd</span>    Change directory',
     '<span class="command">cat</span>    Display the contents of a file',
+    '<span class="command">secret</span>    Display secret commands',
     "<br>"
 ]
 
 banner = [
-    '<h1 class="index">Welcome to Adam Tanweer\'s website | All rights reserved.</h1>',
+    '<h1 class="index">Welcome to Adam Tanweer\'s terminal website.</h1>',
 
     '<span class="color2">Welcome to my portfolio with an interactive terminal!.</span>',
     '<span class\"color2\">To get a list of available commands, type<</span> <span class=\"command\">help</span> <span class=\"color2\">and press enter.</span>',
+    '<span class="color2">To clear the terminal, type</span> <span class=\"command\">clear</span> <span class=\"color2\">and press enter.</span>',
+    '<span class=\"color2\">'
 ];

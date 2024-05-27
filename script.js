@@ -1,3 +1,10 @@
+// Author: Poltanek
+// Version: 1.0
+// This is a simple script that will be used to simulate a terminal on the website.
+// It will be used to display information about me, my projects, and other things.
+// It will also be used to simulate a password prompt.
+
+
 var before = document.getElementById('before');
 var liner = document.getElementById('liner');
 var command = document.getElementById('typer');
@@ -87,16 +94,92 @@ function enterKey(e) {
 }
 
 // Linux Commands
+// switch case to handle the commands
 
 function commander(cmd) {
     switch(cmd.toLowerCase()) {
         case "help":
             loopLines(help, "color2 margin", 80);
             break;
+        case "clear":
+            clearTerminal();
+            break;
+        case "whois":
+            loopLines(whois, "color2 margin", 80);
+            break;
+        case "whoami":
+            loopLines(whoami, "color2 margin", 80);
+            break;
+        case "social":
+            loopLines(social, "color2 margin", 80);
+            break;
+        case "projects":
+            loopLines(projects, "color2 margin", 80);
+            break;
 
+            /* Provides email link */
+        case "email":
+            addLine(email, "color2 margin", 80);
+            break;
+
+            /* Simulates the banner that appears at the start */
+        case "banner":
+            loopLines(banner, "", 80);
+            break;
+
+            /* Simulates a password prompt */
+        case "pwd":
+            addLine("visitor@localhost:~", "no-animation", 0);
+            break;
+
+            /* Displays a list of files/folders */
+        case "ls":
+            addLine("scripts", "no-animation", 0);
+            break;
+
+            /* Changes the directory to the scripts directory */
+        case "cd scripts":
+            currentDirectory = "scripts";
+            addLine("visitor@localhost:~/scripts", "no-animation", 0);
+            break;
+
+            /* Changes the directory back to the root directory */
+        case "cd ..":
+            currentDirectory = "";
+            addLine("visitor@localhost:~", "no-animation", 0);
+            break;
+
+            /* Displays the contents of a file */
+        case "cat":
+            addLine("This is a file", "no-animation", 0);
+            break;
+        
+            /* Provides a list of historic commands that the visitor/user has used */
+        case "history":
+            commands.forEach(function(item, index) {
+                addLine(item, "no-animation", index * 80);
+            });
+            break;
+        case "secret":
+            pw = true;
+            liner.classList.add("password");
+            addLine("Password: ", "no-animation", 0);
+            break;
+
+        
             default:
                 addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>", "error", 100);
     }
+}
+
+function clearTerminal() {
+    var commandInput = document.getElementById('commandInput');
+    var banner = document.getElementById('banner');
+    
+    terminal.innerHTML = "";
+
+    terminal.appendChild(banner);
+    terminal.appendChild(commandInput);
 }
 
 function newTab(link) {
@@ -105,6 +188,8 @@ function newTab(link) {
     }, 500);
 }
 
+
+// Function to add lines to the terminal
 function addLine(text, style, time) {
     var t = "";
     for (let i = 0; i < text.length; i++) {
