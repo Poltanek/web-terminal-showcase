@@ -1,7 +1,11 @@
 var password = "password";
-var linkedin = "";
-var github = "";
-var email = "";
+var linkedin = "https://www.linkedin.com/in/adam-tanweer-ab8082274/";
+var github = "https://github.com/Poltanek";
+var email = "adamtanweer4@gmail.com";
+
+email = "Mail To: " + email;
+github = github;
+linkedin = linkedin;
 
 whois = [
     "<br>",
@@ -17,15 +21,28 @@ whoami = [
 
 social = [
     "<br>",
-    "LinkedIn:  <a href=" + linkedin,
-    "GitHub:  <a href=" + github,
-    "Email:  <a href=" + email,
+    "LinkedIn:  <a href=" + linkedin + "'>https://www.linkedin.com/in/adam-tanweer-ab8082274/</a>",
+    "GitHub:  <a href=" + github + "'>https://github.com/Poltanek</a>",
+    "Email:  <a href=" + email + "'>adamtanweer4@gmail.com</a>",
     "<br>"
 ]
 
 secret = [
     "<br>",
     '<span class="command">sudp</span>    only use if you\'re a admin',
+    "<br>"
+]
+
+cv = [
+    "<br>",
+    "My CV is available on request.",
+    "<br>"
+]
+
+
+history = [
+    "<br>",
+    '2021',
     "<br>"
 ]
 
@@ -55,10 +72,11 @@ help = [
 ]
 
 banner = [
-    '<h1 class="index">Welcome to Adam Tanweer\'s terminal website.</h1>',
 
-    '<span class="color2">Welcome to my portfolio with an interactive terminal!.</span>',
+    '<h1 class="index"></h1>',
+
+    '<span class="color2">Welcome to my portfolio with an interactive terminal!</span>',
     '<span class\"color2\">To get a list of available commands, type<</span> <span class=\"command\">help</span> <span class=\"color2\">and press enter.</span>',
     '<span class="color2">To clear the terminal, type</span> <span class=\"command\">clear</span> <span class=\"color2\">and press enter.</span>',
-    '<span class=\"color2\">'
+    '<span class=\"color2\"> //// </span> <span class=\"command\">whois</span> <span class=\"color2\">to know more about me.</span>',
 ];

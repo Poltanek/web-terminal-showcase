@@ -13,7 +13,7 @@ body {
     width: 100%;
     min-width: 550px;
     color: #B89076;
-    background: #1b120d;
+    background: #202222;
     font-family: cursor, monospace;
     overflow-x: hidden;
     font-size: 15px;
@@ -122,19 +122,20 @@ p {
     }
 }
 
+/* Header */
 .index {
-    color: #DCDCCC;
+    color: #9c7aec;
 }
 
 
  /* text variant */
 .color2 {
-    color: #9C8394;
+    color: #ffffff;
 }
 
 .command {
-    color: #73abad;
-    text-shadow: 0 0 5px #73ABAD;
+    color: #aafcff;
+    text-shadow: 0 0 5px #aafcff;
 }
 
 .folder {

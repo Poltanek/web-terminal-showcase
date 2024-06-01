@@ -116,12 +116,13 @@ function commander(cmd) {
         case "projects":
             loopLines(projects, "color2 margin", 80);
             break;
-
+        case "cv":
+            loopLines(cv, "color2 margin", 80);
+            break;
             /* Provides email link */
         case "email":
             addLine(email, "color2 margin", 80);
             break;
-
             /* Simulates the banner that appears at the start */
         case "banner":
             loopLines(banner, "", 80);
@@ -156,9 +157,7 @@ function commander(cmd) {
         
             /* Provides a list of historic commands that the visitor/user has used */
         case "history":
-            commands.forEach(function(item, index) {
-                addLine(item, "no-animation", index * 80);
-            });
+            loopLines(history, "color2 margin", 80);
             break;
         case "secret":
             pw = true;
