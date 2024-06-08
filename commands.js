@@ -1,20 +1,20 @@
 var password = "password";
 var linkedin = "https://www.linkedin.com/in/adam-tanweer-ab8082274/";
 var github = "https://github.com/Poltanek";
-var email = "adamtanweer4@gmail.com";
+var email = '';
 var donate = "https://buymeacoffee.com/"
 
 email = "Mail To: " + email;
 github = github;
 linkedin = linkedin;
 
-whois = [
+poltanek = [
     "<br>",
     "Hello, I'm Adam Tanweer, a Computer Science student at the University of Winchester.",
     "<br>"
 ];
 
-whoami = [
+whatami = [
     "<br>",
     "You are a visitor to my website. Feel free to explore and learn more about me.",
     "<br>"
@@ -25,6 +25,15 @@ social = [
     "LinkedIn:  <a href=" + linkedin + "'>https://www.linkedin.com/in/adam-tanweer-ab8082274/</a>",
     "GitHub:  <a href=" + github + "'>https://github.com/Poltanek</a>",
     "Email:  <a href=" + email + "'>adamtanweer4@gmail.com</a>",
+    "<br>"
+]
+
+fun = [
+    "<br>",
+    "built in ascii font generator",
+    "built in adventure game",
+    "built in chatbot",
+    "built in terminal theme changer",
     "<br>"
 ]
 
@@ -65,8 +74,8 @@ themes = [
 
 help = [
     "<br>",
-    '<span class="command">whois</span>    Information about me',
-    '<span class="command">whoami</span>    Information about you',
+    '<span class="command">poltanek</span>    Information about me',
+    '<span class="command">whatami</span>    Information about you',
     '<span class="command">social</span>    Social media links',
     '<span class="command">projects</span>    My projects',
     '<span class="command">help</span>    List of commands',

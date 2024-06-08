@@ -114,7 +114,7 @@ function commander(cmd) {
 }
 
 function commander(cmd) {
-    
+
 }
 
 function setTheme(themeName) {
@@ -136,13 +136,16 @@ function commander(cmd) {
             loopLines(help, "color2 margin", 80);
             break;
         case "clear":
-            clearTerminal();
+            setTimeout(function() {
+                terminal.innerHTML = '<a id="before"></a>';
+                before = document.getElementById('before');
+            }, 1);
             break;
-        case "whois":
-            loopLines(whois, "color2 margin", 80);
+        case "poltanek":
+            loopLines(poltanek, "color2 margin", 80);
             break;
-        case "whoami":
-            loopLines(whoami, "color2 margin", 80);
+        case "whatami":
+            loopLines(whatami, "color2 margin", 80);
             break;
         case "social":
             loopLines(social, "color2 margin", 80);
@@ -156,6 +159,7 @@ function commander(cmd) {
             /* Provides email link */
         case "email":
             addLine(email, "color2 margin", 80);
+            newTab(email);
             break;
             /* Simulates the banner that appears at the start */
         case "banner":
@@ -193,7 +197,15 @@ function commander(cmd) {
             liner.classList.add("password");
             addLine("Password: ", "no-animation", 0);
             break;
-        case "Themes":
+        case "github":
+            addLine("loading...", "color2 margin", 80);
+            newTab(github);
+            break;
+        case "linkedin":
+            addLine("loading...", "color2 margin", 80);
+            newTab(linkedin);
+            break;
+        case "themes":
             addLine("Themes", "color2 margin", 80);
             break;
         case "request":
@@ -206,16 +218,6 @@ function commander(cmd) {
             default:
                 addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>", "error", 100);
     }
-}
-
-function clearTerminal() {
-    var textarea = document.getElementById('texter');
-    var terminal = document.getElementById('terminal');
-
-    terminal.innerHTML = "";
-
-    loopLines(banner, "", 80);
-    textarea.focus();
 }
 
 function newTab(link) {
