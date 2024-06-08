@@ -10,6 +10,7 @@ var liner = document.getElementById('liner');
 var command = document.getElementById('typer');
 var textarea = document.getElementById('texter');
 var terminal = document.getElementById('terminal');
+var theme = document.getElementById('theme');
 
 var git = 0;
 var pw = false;
@@ -93,6 +94,39 @@ function enterKey(e) {
     }
 }
 
+function commander(cmd) {
+    var parts = cmd.toLowerCase().split('');
+    var command = parts[0];
+    var argument = parts[1];
+
+    switch(command) {
+        case "help":
+            loopLines(help, "color2 margin", 80);
+            break;
+        case "theme":
+            if (theme[argument]) {
+                setTheme(argument);
+            } else {
+                console.error("Theme not found: " + argument);
+            }
+            break;
+    }
+}
+
+function commander(cmd) {
+    
+}
+
+function setTheme(themeName) {
+    var theme = themes[themeName];
+    if (theme) {
+        Object.keys(theme).forEach(function(key) {
+            document.documentElement.style.setProperty(key, theme[key]);
+        });
+    } else {
+        console.error("theme not found: " + themeName);
+    }
+}
 // Linux Commands
 // switch case to handle the commands
 
@@ -149,11 +183,6 @@ function commander(cmd) {
             currentDirectory = "";
             addLine("visitor@localhost:~", "no-animation", 0);
             break;
-
-            /* Displays the contents of a file */
-        case "cat":
-            addLine("This is a file", "no-animation", 0);
-            break;
         
             /* Provides a list of historic commands that the visitor/user has used */
         case "history":
@@ -164,21 +193,29 @@ function commander(cmd) {
             liner.classList.add("password");
             addLine("Password: ", "no-animation", 0);
             break;
+        case "Themes":
+            addLine("Themes", "color2 margin", 80);
+            break;
+        case "request":
+            break;
+        case "donate":
+            loopLines(donate, "color2 margin", 80);
+            break;
 
-        
+
             default:
                 addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>", "error", 100);
     }
 }
 
 function clearTerminal() {
-    var commandInput = document.getElementById('commandInput');
-    var banner = document.getElementById('banner');
-    
+    var textarea = document.getElementById('texter');
+    var terminal = document.getElementById('terminal');
+
     terminal.innerHTML = "";
 
-    terminal.appendChild(banner);
-    terminal.appendChild(commandInput);
+    loopLines(banner, "", 80);
+    textarea.focus();
 }
 
 function newTab(link) {
