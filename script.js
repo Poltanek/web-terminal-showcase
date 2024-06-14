@@ -10,7 +10,7 @@ var liner = document.getElementById('liner');
 var command = document.getElementById('typer');
 var textarea = document.getElementById('texter');
 var terminal = document.getElementById('terminal');
-var theme = document.getElementById('theme');
+var themes = document.getElementById('theme');
 
 var git = 0;
 var pw = false;
@@ -94,8 +94,17 @@ function enterKey(e) {
     }
 }
 
+function setTheme(themeName) {
+    document.body.classList.remove('dark-theme', 'light-theme', 'neontheme');
+    document.body.classList.add(themeName);
+
+    localStorage.setItem('theme', themeName);
+
+    console.log('Theme set to ' + themeName);
+}
+
 function commander(cmd) {
-    var parts = cmd.toLowerCase().split('');
+    var parts = cmd.toLowerCase().split(' ');
     var command = parts[0];
     var argument = parts[1];
 
@@ -113,20 +122,7 @@ function commander(cmd) {
     }
 }
 
-function commander(cmd) {
 
-}
-
-function setTheme(themeName) {
-    var theme = themes[themeName];
-    if (theme) {
-        Object.keys(theme).forEach(function(key) {
-            document.documentElement.style.setProperty(key, theme[key]);
-        });
-    } else {
-        console.error("theme not found: " + themeName);
-    }
-}
 // Linux Commands
 // switch case to handle the commands
 
@@ -165,31 +161,30 @@ function commander(cmd) {
         case "banner":
             loopLines(banner, "", 80);
             break;
-
             /* Simulates a password prompt */
         case "pwd":
             addLine("visitor@localhost:~", "no-animation", 0);
             break;
-
             /* Displays a list of files/folders */
         case "ls":
             addLine("scripts", "no-animation", 0);
             break;
-
             /* Changes the directory to the scripts directory */
         case "cd scripts":
             currentDirectory = "scripts";
             addLine("visitor@localhost:~/scripts", "no-animation", 0);
             break;
-
             /* Changes the directory back to the root directory */
         case "cd ..":
             currentDirectory = "";
             addLine("visitor@localhost:~", "no-animation", 0);
             break;
-        
             /* Provides a list of historic commands that the visitor/user has used */
         case "history":
+            commands.forEach(function(item, index) 
+            {
+                addLine(item, "color2 margin", index * 80);
+            });
             loopLines(history, "color2 margin", 80);
             break;
         case "secret":
@@ -205,9 +200,28 @@ function commander(cmd) {
             addLine("loading...", "color2 margin", 80);
             newTab(linkedin);
             break;
-        case "themes":
-            addLine("Themes", "color2 margin", 80);
+        case "octavia":
+            addLine("loading...", "color2 margin", 80);
+            newTab(octavia);
             break;
+        case "fun":
+            loopLines(fun, "color2 margin", 80);
+            break;
+
+            /* Themes */
+        case "themes":
+            loopLines(themes, "color2 margin", 80);
+            break;
+        case "default":
+            setTheme("default-theme");
+            break;
+        case "light":
+            setTheme("light-theme");
+            break;
+        case "dark":
+            setTheme("dark-theme");
+            break;
+
         case "request":
             break;
         case "donate":
@@ -225,7 +239,6 @@ function newTab(link) {
         window.open(link, "_blank");
     }, 500);
 }
-
 
 // Function to add lines to the terminal
 function addLine(text, style, time) {

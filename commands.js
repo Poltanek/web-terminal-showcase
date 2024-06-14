@@ -1,4 +1,4 @@
-var password = "password";
+var password = "qwerty";
 var linkedin = "https://www.linkedin.com/in/adam-tanweer-ab8082274/";
 var github = "https://github.com/Poltanek";
 var email = '';
@@ -30,10 +30,11 @@ social = [
 
 fun = [
     "<br>",
-    "built in ascii font generator",
-    "built in adventure game",
-    "built in chatbot",
-    "built in terminal theme changer",
+    "Some fun projects that I've done:",
+    "1. built in ascii font generator",
+    "2. built in adventure game",
+    "3. built in chatbot",
+    "4. built in terminal theme changer",
     "<br>"
 ]
 
@@ -49,13 +50,6 @@ cv = [
     "<br>"
 ]
 
-
-history = [
-    "<br>",
-    '2021',
-    "<br>"
-]
-
 projects = [
     "<br>",
     "Most of the projects that I've done will be on my GitHub.",
@@ -64,26 +58,25 @@ projects = [
 
 themes = [
     "<br>",
-    "Ocean",
-    "Forest",
-    "Desert",
-    "Space",
-    "Sunset",
+    '<span class="command">default</span> <span class="color2">  Original Theme</span>',
+    '<span class="command">dark</span> <span class="color2">  Dark Mode</span>',
+    '<span class="command">light</span> <span class="color2"> Light Mode</span>',
     "<br>"
 ]
 
 help = [
     "<br>",
-    '<span class="command">poltanek</span>    Information about me',
+    '<span class="command">poltanek</span><span class="color2">  Information about me</span>',
     '<span class="command">whatami</span>    Information about you',
     '<span class="command">social</span>    Social media links',
     '<span class="command">projects</span>    My projects',
     '<span class="command">help</span>    List of commands',
+    '<span class="command">skills</span>    My skills',
     '<span class="command">history</span>    View command history',
     '<span class="command">email</span>    View my email address',
     '<span class="command">clear</span>    Clear the terminal',
     '<span class="command">banner</span>    View the "welcome" messsage',
-    '<span class="command">cv</span>    Request my CV',
+    '<span class="command">themes</span>    List of terminal themes',
     '<span class="command">secret</span>    Display secret commands',
     '<span class="command">octavia</span>    Talk to my chatbot',
     '<span class="command">fun</span>    Display fun projects',

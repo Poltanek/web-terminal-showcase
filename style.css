@@ -6,7 +6,6 @@ Tags: terminal, theme, clean, simple, responsive, minimal
 Text Domain: cursor 
 */
 
-
 body {
     margin: 0;
     padding: 15px 20px;
@@ -19,6 +18,42 @@ body {
     overflow-x: hidden;
     font-size: 15px;
 }
+
+/* Themes */
+.default-theme {
+    background: #2a2e3a;
+    color: #ffffff;
+}
+
+.light-theme {
+    background: #ffffff;
+    color: #000000;
+}
+
+
+/* Dark Theme */
+.dark-theme {
+    background: #000000;
+    color: #00ff00;
+}
+
+.dark-theme .cursor {
+    background-color: #00ff00;
+}
+
+.dark-theme #command {
+    color: #00ff00;
+}
+
+.dark-theme .color2 {
+    color: #ffffff;
+}
+
+.dark-theme .command {
+    color: #00ff00;
+}
+
+
 
 ::selection {
     background: rgba(255, 255, 255, 0.6);
