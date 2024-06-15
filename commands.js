@@ -92,7 +92,6 @@ help = [
 donate = [
     "If you like what you see, consider buying me a coffee!  <a href=" + donate + "'>https://buymeacoffee.com/</a>"
 ]
-
 banner = [
     '<h1 class="index"></h1>',
 
@@ -108,5 +107,19 @@ banner = [
     '<span class=\"color2\">[Type] </span><span class=\"command\">octavia</span> to talk to my AI<span class=\"color2\"></span>',
 ];
 
+features = [
+    "<br>",
+    "Features of this terminal:",
+    "1. Custom commands",
+    "2. Custom themes",
+    "3. Command history",
+    "4. Interactive chatbot",
+    "5. Fun projects",
+    "<br>"
+]
+coffee
+function drawCoffeeAnimation() {
+    const frames = [
 
-
+    ]
+}

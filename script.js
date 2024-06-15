@@ -220,7 +220,7 @@ function commander(cmd) {
         case "dark":
             setTheme("dark-theme");
             break;
-
+            
         case "request":
             break;
         case "donate":
@@ -230,7 +230,14 @@ function commander(cmd) {
             addLine("You are not an admin", "error", 100);
             break;
         case "robco":
-            addLine("You are not an admin", "error", 100);
+            addLine("loading...", "color2 margin", 80);
+            newTab(robco);
+            break;
+        case "skills":
+            loopLines(skills, "color2 margin", 80);
+            break;
+        case "features":
+            loopLines(features, "color2 margin", 80);
             break;
 
 

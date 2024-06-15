@@ -42,7 +42,7 @@ body {
 }
 
 .dark-theme #command {
-    color: #00ff00;
+    color: #b4ffb4;
 }
 
 .dark-theme .color2 {
@@ -52,6 +52,11 @@ body {
 .dark-theme .command {
     color: #00ff00;
 }
+
+.dark-theme .liner::before {
+    color: #00ff00;
+}
+
 
 
 
