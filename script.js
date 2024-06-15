@@ -122,7 +122,6 @@ function commander(cmd) {
     }
 }
 
-
 // Linux Commands
 // switch case to handle the commands
 
@@ -226,6 +225,12 @@ function commander(cmd) {
             break;
         case "donate":
             loopLines(donate, "color2 margin", 80);
+            break;
+        case "sudp":
+            addLine("You are not an admin", "error", 100);
+            break;
+        case "robco":
+            addLine("You are not an admin", "error", 100);
             break;
 
 
