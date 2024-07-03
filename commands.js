@@ -102,9 +102,9 @@ banner = [
     
     '<span class=\"color2\">Press </span><span class=\"command\">"↑"</span> or<span class=\"color2\"></span> <span class=\"command\">"↓"</span> <span class=\"color2\">to navigate through your command history.</span>',
 
-    '<span class=\"color2\">[Type] </span><span class=\"command\">fun</span> to see some entertaining projects<span class=\"color2\"></span>',
-    '<span class=\"color2\">[Type] </span><span class=\"command\">features</span> to list of terminal features<span class=\"color2\"></span>',
-    '<span class=\"color2\">[Type] </span><span class=\"command\">octavia</span> to talk to my AI<span class=\"color2\"></span>',
+    '<span class=\"color2\"></span><span class=\"command\">"fun"</span> to see some entertaining projects<span class=\"color2\"></span>',
+    '<span class=\"color2\"></span><span class=\"command\">"features"</span> to list of terminal features<span class=\"color2\"></span>',
+    '<span class=\"color2\"></span><span class=\"command\">"octavia"</span> to talk to my AI<span class=\"color2\"></span>',
 ];
 
 features = [
