@@ -120,6 +120,6 @@ features = [
 coffee
 function drawCoffeeAnimation() {
     const frames = [
-
+        
     ]
 }
