@@ -153,6 +153,7 @@ function commander(cmd) {
             break;
             /* Provides email link */
         case "email":
+            addLine("loading...", "color2 margin", 80);
             addLine(email, "color2 margin", 80);
             newTab(email);
             break;
@@ -199,10 +200,6 @@ function commander(cmd) {
             addLine("loading...", "color2 margin", 80);
             newTab(linkedin);
             break;
-        case "octavia":
-            addLine("loading...", "color2 margin", 80);
-            newTab(octavia);
-            break;
         case "fun":
             loopLines(fun, "color2 margin", 80);
             break;
@@ -212,12 +209,15 @@ function commander(cmd) {
             loopLines(themes, "color2 margin", 80);
             break;
         case "default":
+            addLine("loading...", "color2 margin", 80);
             setTheme("default-theme");
             break;
         case "light":
+            addLine("loading...", "color2 margin", 80);
             setTheme("light-theme");
             break;
         case "dark":
+            addLine("loading...", "color2 margin", 80);
             setTheme("dark-theme");
             break;
             

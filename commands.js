@@ -1,7 +1,7 @@
 var password = "qwerty";
 var linkedin = "https://www.linkedin.com/in/adam-tanweer-ab8082274/";
 var github = "https://github.com/Poltanek";
-var email = '';
+var email = 'adamtanweer4@gmail.com';
 var donate = "https://buymeacoffee.com/"
 
 email = "Mail To: " + email;
@@ -22,9 +22,9 @@ whatami = [
 
 social = [
     "<br>",
-    "LinkedIn:  <a href=" + linkedin + "'>https://www.linkedin.com/in/adam-tanweer-ab8082274/</a>",
-    "GitHub:  <a href=" + github + "'>https://github.com/Poltanek</a>",
-    "Email:  <a href=" + email + "'>adamtanweer4@gmail.com</a>",
+    '<span class="command">linkedin</span>    LinkedIn Profile',
+    '<span class="command">github</span>    GitHub Profile',
+    '<span class="command">email</span>    Email Address',
     "<br>"
 ]
 
@@ -33,7 +33,6 @@ fun = [
     "Some fun projects that I've done:",
     "1. built in ascii font generator",
     "2. built in adventure game",
-    "3. built in chatbot",
     "4. built in terminal theme changer",
     "<br>"
 ]
@@ -80,9 +79,6 @@ help = [
     '<span class="command">secret</span>    Display secret commands',
     '<span class="command">octavia</span>    Talk to my chatbot',
     '<span class="command">fun</span>    Display fun projects',
-    '<span class="command">pwd</span>    Print working directory',
-    '<span class="command">ls</span>    Display a list of files/folders',
-    '<span class="command">cd</span>    Change directory',
     '<span class="command">cat</span>    Display the contents of a file',
     '<span class="command">secret</span>    Display secret commands',
     '<span class="command">donate</span>    Buy me a coffee',
@@ -104,7 +100,6 @@ banner = [
 
     '<span class=\"color2\"></span><span class=\"command\">"fun"</span> to see some entertaining projects<span class=\"color2\"></span>',
     '<span class=\"color2\"></span><span class=\"command\">"features"</span> to list of terminal features<span class=\"color2\"></span>',
-    '<span class=\"color2\"></span><span class=\"command\">"octavia"</span> to talk to my AI<span class=\"color2\"></span>',
 ];
 
 features = [
