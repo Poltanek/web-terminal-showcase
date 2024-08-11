@@ -76,7 +76,6 @@ help = [
     '<span class="command">clear</span>    Clear the terminal',
     '<span class="command">banner</span>    View the "welcome" messsage',
     '<span class="command">themes</span>    List of terminal themes',
-    '<span class="command">secret</span>    Display secret commands',
     '<span class="command">octavia</span>    Talk to my chatbot',
     '<span class="command">fun</span>    Display fun projects',
     '<span class="command">cat</span>    Display the contents of a file',
