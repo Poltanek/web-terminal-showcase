@@ -17,5 +17,5 @@ The interactive web terminal is a web-based application which simulates a CLI ex
 
 ## Contributions!
 
-Contributiopns are welcome! 
+Contributions are welcome! 
 Please fork this repo and submit a pull request with your improvements!
