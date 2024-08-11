@@ -10,7 +10,8 @@ The interactive web terminal is a web-based application which simulates a CLI ex
 2. Custom Themes
 3. Command History
 4. Command Navigation
-5. secret password
+5. Secret Password
+
 ## Screenshots 
 ![HomeTerminal](https://github.com/user-attachments/assets/cf924572-df8c-46cd-9198-b3440cde8a01)
 ![HelpMenu](https://github.com/user-attachments/assets/e5156705-6cb3-46ec-8f5e-e0976f9b72ac)
