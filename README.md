@@ -19,6 +19,9 @@ The interactive web terminal is a web-based application which simulates a CLI ex
 ![dark theme](https://github.com/user-attachments/assets/40ae04c2-cc83-4590-a3dd-f25953f6b31e)
 ![light mode](https://github.com/user-attachments/assets/56c2ac5b-1e52-408d-a293-2e305d81f0ef)
 
+## Under Construction!
+Will be implementing more features to this application such as a fully supported backend and a AI chatbot.
+
 ## Contributions!
 
 Contributions are welcome! 
