@@ -239,8 +239,6 @@ function commander(cmd) {
         case "features":
             loopLines(features, "color2 margin", 80);
             break;
-
-
             default:
                 addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>", "error", 100);
     }

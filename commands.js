@@ -111,9 +111,3 @@ features = [
     "5. Fun projects",
     "<br>"
 ]
-coffee
-function drawCoffeeAnimation() {
-    const frames = [
-        
-    ]
-}
