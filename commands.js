@@ -1,16 +1,44 @@
+/* ----------------- social media platforms & secret password ----------------- */
+
 var password = "qwerty";
 var linkedin = "https://www.linkedin.com/in/adam-tanweer-ab8082274/";
 var github = "https://github.com/Poltanek";
 var email = 'adamtanweer4@gmail.com';
 var donate = "https://buymeacoffee.com/"
 
+
+/* ----------------- Projects ----------------- */
+
+/* ----------------- Python ------------------- */
+var crane_ai = "https://github.com/Poltanek/AI-Crane-Stacker";
+var crane_search = "https://github.com/Poltanek/Crane-Random-Search";
+var sort_vis = "https://github.com/Poltanek/Sorting-Algorithm-Visualizer";
+var house_estimate = "https://github.com/Poltanek/House-Value-Estimator";
+var car_hp_predict = "https://github.com/Poltanek/Horsepower-Car-Prediction";
+var gift_wrap = "https://github.com/Poltanek/gift-wrapping-application";
+var maze_code = "https://github.com/Poltanek/Maze-Code";
+
+/* -----------------  JavaScript -----------------  */
+
+var motionSpace = "https://github.com/Poltanek/MotionSpace";
+var book_display = "https://github.com/Poltanek/Book-Display-WebApp";
+/* ----------------- Databases/Data Analytics and Information  -----------------  */
+var database_management_analysis = "https://github.com/Poltanek/database-management-analysis";
+
+
+/* ----------------- Network Security/Design -----------------  */
+
+var Cisco_Packet_Tracer = "https://github.com/Poltanek/Cisco-Packet-Tracer";
+var HQ_and_Remote_Site_Network = "https://github.com/Poltanek/HQ-and-Remote-Site-Network"; 
+
 email = "Mail To: " + email;
 github = github;
 linkedin = linkedin;
 
-poltanek = [
+aboutme = [
     "<br>",
-    "Hello, I'm Adam Tanweer, a Computer Science student at the University of Winchester.",
+    "Hello, I'm Adam Tanweer, a Computer Science student at the University of Winchester, I am an inspiring <span class=\"command\">Jnr Software Engineer</span>",
+
     "<br>"
 ];
 
@@ -51,9 +79,42 @@ cv = [
 
 projects = [
     "<br>",
-    "Most of the projects that I've done will be on my GitHub.",
-    "<br>"
+    '<span class="javascript">Javascript Projects</span>',
+    "<br>",
+
+    "<br>",
+    '<span class="command">motion</span> [MotionSpace]    Information about you',
+    '<span class="command">social</span>    Social media links',
+    '<span class="command">projects</span>    My projects',
+    "<br>",
+    
+    "<br>",
+    '<span class="python">Python Projects</span>',
+    "<br>",
+
+    "<br>",
+    '<span class="command">crane_ai</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [AI Crane Stacker] Takes you to GitHub Repository',
+    '<span class="command">crane_search</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Crane Random Search]Takes you to GitHub Repository',
+    '<span class="command">sort_vis</span>&nbsp [Sorting Algorithm Visualizer] Takes you to GitHub Repository',
+    '<span class="command">house_estimate</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [House Value Estimator] Takes you to GitHub Repository',
+    '<span class="command">car_hp_predict</span> &nbsp&nbsp&nbsp [Horsepower Car Prediction] Takes you to GitHub Repository',
+    '<span class="command">gift_wrap</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [gift wrapping application] Takes you to GitHub Repository',
+    '<span class="command">maze_code</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Maze Code] Takes you to GitHub Repository',
+    "<br>",
+
+    "<br>",
+    '<span class="databases">Oracle APEX</span>',
+    "<br>",
+
+    "<br>",
+    '<span class="command">db_analysis</span> []  Takes you to GitHub Repository',
+    "<br>",
+
+    "<br>",
+    '<span class="networksecurity">Network Security/Design</span>',
+    "<br>",
 ]
+
 
 themes = [
     "<br>",
@@ -65,22 +126,21 @@ themes = [
 
 help = [
     "<br>",
-    '<span class="command">poltanek</span><span class="color2">  Information about me</span>',
-    '<span class="command">whatami</span>    Information about you',
-    '<span class="command">social</span>    Social media links',
-    '<span class="command">projects</span>    My projects',
-    '<span class="command">help</span>    List of commands',
-    '<span class="command">skills</span>    My skills',
-    '<span class="command">history</span>    View command history',
-    '<span class="command">email</span>    View my email address',
-    '<span class="command">clear</span>    Clear the terminal',
-    '<span class="command">banner</span>    View the "welcome" messsage',
-    '<span class="command">themes</span>    List of terminal themes',
-    '<span class="command">octavia</span>    Talk to my chatbot',
-    '<span class="command">fun</span>    Display fun projects',
-    '<span class="command">cat</span>    Display the contents of a file',
-    '<span class="command">secret</span>    Display secret commands',
-    '<span class="command">donate</span>    Buy me a coffee',
+    '<span class="command">aboutme</span><span class="color2"> &nbsp&nbsp&nbsp Information about me</span>',
+    '<span class="command">whatami</span> &nbsp&nbsp&nbsp&nbsp Information about you',
+    '<span class="command">social</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Social media links',
+    '<span class="command">projects</span>&nbsp&nbsp&nbsp&nbsp My projects',
+    '<span class="command">help</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp List of commands',
+    '<span class="command">skills</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp My skills',
+    '<span class="command">history</span> &nbsp&nbsp&nbsp&nbsp View command history',
+    '<span class="command">email</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp View my email address',
+    '<span class="command">clear</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Clear the terminal',
+    '<span class="command">banner</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp View the "welcome" messsage',
+    '<span class="command">themes</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp List of terminal themes',
+    '<span class="command">fun</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Display fun projects',
+    '<span class="command">cat</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Display the contents of a file',
+    '<span class="command">secret</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Display secret commands',
+    '<span class="command">donate</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Buy me a coffee',
     "<br>"
 ]
 
@@ -96,9 +156,10 @@ banner = [
     '<span class="color2"></span> <span class="command"></span> <span class="color2"></span>',
     
     '<span class=\"color2\">Press </span><span class=\"command\">"↑"</span> or<span class=\"color2\"></span> <span class=\"command\">"↓"</span> <span class=\"color2\">to navigate through your command history.</span>',
-
-    '<span class=\"color2\"></span><span class=\"command\">"fun"</span> to see some entertaining projects<span class=\"color2\"></span>',
-    '<span class=\"color2\"></span><span class=\"command\">"features"</span> to list of terminal features<span class=\"color2\"></span>',
+    '<span class=\"color2\"></span><span class=\"command\">"cv"</span>View my CV<span class=\"color2\"></span>',
+    '<span class=\"color2\"></span><span class=\"command\">"projects"</span> To see my list of projects<span class=\"color2\"></span>',
+    '<span class=\"color2\"></span><span class=\"command\">"social"</span> A list of my social media platform<span class=\"color2\"></span>',
+    '<span class=\"color2\"></span><span class=\"command\">"dark"</span> Access Dark Mode if you would like to :) <span class=\"color2\"></span>',
 ];
 
 features = [
@@ -107,7 +168,5 @@ features = [
     "1. Custom commands",
     "2. Custom themes",
     "3. Command history",
-    "4. Interactive chatbot",
-    "5. Fun projects",
     "<br>"
 ]

@@ -206,6 +206,28 @@ a:focus {
     outline: 0;
 }
 
+.javascript {
+    color: rgb(255, 212, 132);
+    text-shadow: 0 0 5px rgb(255, 210, 127);
+}
+
+.python {
+    color: rgb(112, 112, 255);
+    text-shadow: 0 0 5px rgb(32, 32, 255);
+}
+
+.databases {
+    color: red;
+    text-shadow: 0 0 5px #ff7d7d;
+}
+
+.networksecurity {
+    color: rgb(214, 118, 255);
+    text-shadow: 0 0 5px #9c7aec;
+}
+
+
+
 @media only screen and (max-width: 550px) {
     body {
         padding: 20px;

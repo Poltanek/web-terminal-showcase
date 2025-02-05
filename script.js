@@ -122,7 +122,6 @@ function commander(cmd) {
     }
 }
 
-// Linux Commands
 // switch case to handle the commands
 
 function commander(cmd) {
@@ -136,8 +135,8 @@ function commander(cmd) {
                 before = document.getElementById('before');
             }, 1);
             break;
-        case "poltanek":
-            loopLines(poltanek, "color2 margin", 80);
+        case "aboutme":
+            loopLines(aboutme, "color2 margin", 80);
             break;
         case "whatami":
             loopLines(whatami, "color2 margin", 80);
@@ -148,16 +147,18 @@ function commander(cmd) {
         case "projects":
             loopLines(projects, "color2 margin", 80);
             break;
+            /**
+             * Projects list from here:
+             */
+        case "crane_ai":
+            addLine("loading...", "color2 margin", 80);
+            loopLines(crane_ai, "color2 margin", 80)
+
         case "cv":
+            addLine("loading...", "color2 margin", 80);
             loopLines(cv, "color2 margin", 80);
             break;
             /* Provides email link */
-        case "email":
-            addLine("loading...", "color2 margin", 80);
-            addLine(email, "color2 margin", 80);
-            newTab(email);
-            break;
-            /* Simulates the banner that appears at the start */
         case "banner":
             loopLines(banner, "", 80);
             break;
@@ -223,20 +224,19 @@ function commander(cmd) {
             
         case "request":
             break;
+
         case "donate":
             loopLines(donate, "color2 margin", 80);
             break;
         case "sudp":
             addLine("You are not an admin", "error", 100);
             break;
-        case "robco":
-            addLine("loading...", "color2 margin", 80);
-            newTab(robco);
-            break;
         case "skills":
+            addLine("loading...", "color2 margin", 80);
             loopLines(skills, "color2 margin", 80);
             break;
         case "features":
+            addLine("loading...", "color2 margin", 80);
             loopLines(features, "color2 margin", 80);
             break;
             default:
