@@ -152,7 +152,46 @@ function commander(cmd) {
              */
         case "crane_ai":
             addLine("loading...", "color2 margin", 80);
-            loopLines(crane_ai, "color2 margin", 80)
+            newTab(crane_ai);
+        
+        case "crane_search":
+            addLine("loading...", "color2 margin", 80);
+            newTab(crane_search);
+        case "sort_vis":
+            addLine("loading...", "color2 margin", 80);
+            newTab(sort_vis);
+        case "house_estimate":
+            addLine("loading...", "color2 margin", 80);
+            newTab(house_estimate);
+        case "car_hp_predict":
+            addLine("loading...", "color2 margin", 80);
+            newTab(car_hp_predict);
+        case "gift_wrap":
+            addLine("loading...", "color2 margin", 80);
+            newTab(gift_wrap);
+        case "maze_code":
+            addLine("loading...", "color2 margin", 80);
+            newTab(maze_code);
+        
+        case "motion_space":
+            addLine("loading...", "color2 margin", 80);
+            newTab(motion_space);
+        case "book_display":
+            addLine("loading...", "color2 margin", 80);
+            newTab(book_display);
+
+        case "db_analysis":
+            addLine("loading...", "color2 margin", 80);
+            newTab(db_analysis)
+
+        case "cpt":
+            addLine("loading...", "color2 margin", 80);
+            newTab(cpt);
+        case "HaRSN":
+            addLine("loading...", "color2 margin", 80);
+            newTab(HaRSN);
+
+
 
         case "cv":
             addLine("loading...", "color2 margin", 80);

@@ -20,16 +20,16 @@ var maze_code = "https://github.com/Poltanek/Maze-Code";
 
 /* -----------------  JavaScript -----------------  */
 
-var motionSpace = "https://github.com/Poltanek/MotionSpace";
+var motion_space = "https://github.com/Poltanek/MotionSpace";
 var book_display = "https://github.com/Poltanek/Book-Display-WebApp";
 /* ----------------- Databases/Data Analytics and Information  -----------------  */
-var database_management_analysis = "https://github.com/Poltanek/database-management-analysis";
+var db_analysis = "https://github.com/Poltanek/database-management-analysis";
 
 
 /* ----------------- Network Security/Design -----------------  */
 
-var Cisco_Packet_Tracer = "https://github.com/Poltanek/Cisco-Packet-Tracer";
-var HQ_and_Remote_Site_Network = "https://github.com/Poltanek/HQ-and-Remote-Site-Network"; 
+var cpt = "https://github.com/Poltanek/Cisco-Packet-Tracer";
+var HaRSN = "https://github.com/Poltanek/HQ-and-Remote-Site-Network"; 
 
 email = "Mail To: " + email;
 github = github;
@@ -93,13 +93,13 @@ projects = [
     "<br>",
 
     "<br>",
-    '<span class="command">crane_ai</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [AI Crane Stacker] Takes you to GitHub Repository',
-    '<span class="command">crane_search</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Crane Random Search]Takes you to GitHub Repository',
+    '<span class="command">crane_ai</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [AI Crane Stacker] GitHub Repository',
+    '<span class="command">crane_search</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Crane Random Search] GitHub Repository',
     '<span class="command">sort_vis</span>&nbsp [Sorting Algorithm Visualizer] Takes you to GitHub Repository',
-    '<span class="command">house_estimate</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [House Value Estimator] Takes you to GitHub Repository',
-    '<span class="command">car_hp_predict</span> &nbsp&nbsp&nbsp [Horsepower Car Prediction] Takes you to GitHub Repository',
-    '<span class="command">gift_wrap</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [gift wrapping application] Takes you to GitHub Repository',
-    '<span class="command">maze_code</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Maze Code] Takes you to GitHub Repository',
+    '<span class="command">house_estimate</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [House Value Estimator] GitHub Repository',
+    '<span class="command">car_hp_predict</span> &nbsp&nbsp&nbsp [Horsepower Car Prediction] GitHub Repository',
+    '<span class="command">gift_wrap</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [gift wrapping application] GitHub Repository',
+    '<span class="command">maze_code</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Maze Code] GitHub Repository',
     "<br>",
 
     "<br>",
@@ -133,7 +133,6 @@ help = [
     '<span class="command">help</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp List of commands',
     '<span class="command">skills</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp My skills',
     '<span class="command">history</span> &nbsp&nbsp&nbsp&nbsp View command history',
-    '<span class="command">email</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp View my email address',
     '<span class="command">clear</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Clear the terminal',
     '<span class="command">banner</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp View the "welcome" messsage',
     '<span class="command">themes</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp List of terminal themes',
