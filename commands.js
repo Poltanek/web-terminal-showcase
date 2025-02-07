@@ -78,21 +78,20 @@ projects = [
     "<br>",
 
     "<br>",
-    '<span class="command">motion</span> [MotionSpace]    GitHub Repository',
-    '<span class="command">book_display</span> [Book Display Website]    GitHub Repository',
+    '<span class="command">motion</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [MotionSpace]    GitHub Repository',
+    '<span class="command">book_display</span>&nbsp&nbsp [Book Display Website]    GitHub Repository',
     "<br>",
     
     "<br>",
     '<span class="python">Python Projects</span>',
     "<br>",
-
     "<br>",
-    '<span class="command">crane_ai</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [AI Crane Stacker] GitHub Repository',
-    '<span class="command">crane_search</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Crane Random Search] GitHub Repository',
-    '<span class="command">sort_vis</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Sorting Algorithm Visualizer] GitHub Repository',
-    '<span class="command">house_estimate</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [House Value Estimator] GitHub Repository',
-    '<span class="command">car_hp_predict</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Horsepower Car Prediction] GitHub Repository',
-    '<span class="command">gift_wrap</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [gift wrapping application] GitHub Repository',
+    '<span class="command">crane_ai</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp[AI Crane Stacker] GitHub Repository',
+    '<span class="command">crane_search</span>&nbsp&nbsp&nbsp&nbsp [Crane Random Search] GitHub Repository',
+    '<span class="command">sort_vis</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Sorting Algorithm Visualizer] GitHub Repository',
+    '<span class="command">house_estimate</span> &nbsp [House Value Estimator] GitHub Repository',
+    '<span class="command">car_hp_predict</span> &nbsp [Horsepower Car Prediction] GitHub Repository',
+    '<span class="command">gift_wrap</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [gift wrapping application] GitHub Repository',
     '<span class="command">maze_code</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Maze Code] GitHub Repository',
     "<br>",
 
@@ -101,11 +100,16 @@ projects = [
     "<br>",
 
     "<br>",
-    '<span class="command">db_analysis</span> []  Takes you to GitHub Repository',
+    '<span class="command">db_analysis</span> [Database Analysis] GitHub Repository',
     "<br>",
 
     "<br>",
     '<span class="networksecurity">Network Security/Design</span>',
+    "<br>",
+
+    "<br>",
+    '<span class="command">cpt</span> [Cisco Packet Tracer] GitHub Repository',
+    '<span class="command">HaRSN</span> [HQ Remote Site Network] GitHub Repository',
     "<br>",
 ]
 
@@ -120,7 +124,7 @@ themes = [
 
 help = [
     "<br>",
-    '<span class="command">aboutme</span><span class="color2"> &nbsp&nbsp&nbsp Information about me</span>',
+    '<span class="command">aboutme</span><span class="color2"> &nbsp&nbsp&nbsp&nbsp Information about me</span>',
     '<span class="command">whatami</span> &nbsp&nbsp&nbsp&nbsp Information about you',
     '<span class="command">social</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Social media links',
     '<span class="command">projects</span>&nbsp&nbsp&nbsp&nbsp My projects',
@@ -149,9 +153,7 @@ banner = [
     '<span class="color2"></span> <span class="command"></span> <span class="color2"></span>',
     
     '<span class=\"color2\">Press </span><span class=\"command\">"↑"</span> or<span class=\"color2\"></span> <span class=\"command\">"↓"</span> <span class=\"color2\">to navigate through your command history.</span>',
-    '<span class=\"color2\"></span><span class=\"command\">"projects"</span> To see my list of projects<span class=\"color2\"></span>',
-    '<span class=\"color2\"></span><span class=\"command\">"social"</span> A list of my social media platform<span class=\"color2\"></span>',
-    '<span class=\"color2\"></span><span class=\"command\">"dark"</span> Access Dark Mode if you would like to :) <span class=\"color2\"></span>',
+
 ];
 
 features = [

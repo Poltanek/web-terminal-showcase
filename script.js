@@ -95,7 +95,7 @@ function enterKey(e) {
 }
 
 function setTheme(themeName) {
-    document.body.classList.remove('dark-theme', 'light-theme', 'neontheme');
+    document.body.classList.remove('', '', '');
     document.body.classList.add(themeName);
 
     localStorage.setItem('theme', themeName);

@@ -6,58 +6,26 @@ Tags: terminal, theme, clean, simple, responsive, minimal
 Text Domain: cursor 
 */
 
+.root {
+    --text-colour: rgb(232, 238, 233);
+    --command-colour: lightgreen;
+    --command-shadow-colour: green;
+    --cursor-colour: #77ff89;
+    --cursor-background-colour: #6aff5d;
+}
+
 body {
     margin: 0;
     padding: 15px 20px;
     min-height: 99%;
     width: 100%;
     min-width: 550px;
-    color: #ffffff;
-    background: #2a2e3a;
+    color: #00ff00;
+    background: #000000;
     font-family: cursor, monospace;
     overflow-x: hidden;
     font-size: 15px;
 }
-
-/* Themes */
-.default-theme {
-    background: #2a2e3a;
-    color: #ffffff;
-}
-
-.light-theme {
-    background: #ffffff;
-    color: #000000;
-}
-
-
-/* Dark Theme */
-.dark-theme {
-    background: #000000;
-    color: #00ff00;
-}
-
-.dark-theme .cursor {
-    background-color: #00ff00;
-}
-
-.dark-theme #command {
-    color: #b4ffb4;
-}
-
-.dark-theme .color2 {
-    color: #ffffff;
-}
-
-.dark-theme .command {
-    color: #00ff00;
-}
-
-.dark-theme .liner::before {
-    color: #00ff00;
-}
-
-
 
 
 ::selection {
@@ -73,7 +41,7 @@ body {
 textarea {
     left: -1000px;
     position: absolute;
-    color: #87fbff;
+    color: #87ffb3;
 }
 
 b {
@@ -82,8 +50,8 @@ b {
 
 .cursor {
     font-size: 12px;
-    color: #a8fcff;
-    background-color: #73ABAD;
+    color: rgb(147, 255, 163);
+    background-color: rgb(74, 205, 74);
     position: relative;
     opacity: 1;
     height: 1.5em;
@@ -106,13 +74,13 @@ b {
 #command {
     cursor: text;
     height: 50px;
-    color: #73ABAD;
+    color: #4fff87;
 }
 
 #folder {
     cursor: text;
     height: 50px;
-    color: #73ABAD;
+    color: #63ff7f;
 }
 
 #liner {
@@ -172,12 +140,12 @@ p {
 
  /* text variant */
 .color2 {
-    color: #bbc2cf;
+    color: #aaffc2;
 }
 
 .command {
-    color: #aafcff;
-    text-shadow: 0 0 5px #aafcff;
+    color: #c5ffd6;
+    text-shadow: 0 0 5px #c4ffcd;
 }
 
 .folder {
@@ -193,13 +161,13 @@ p {
 
 .inherit,
 a {
-    color: #a7fffb;
+    color: #65ff5d;
 }
 a {
     text-decoration: inherit;
 }
 a:hover {
-    background: #9dfcff;
+    background: #52ff8c;
     color: #211830;
 }
 a:focus {
