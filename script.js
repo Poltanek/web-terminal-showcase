@@ -153,50 +153,59 @@ function commander(cmd) {
         case "crane_ai":
             addLine("loading...", "color2 margin", 80);
             newTab(crane_ai);
-        
+            break;
+            
         case "crane_search":
             addLine("loading...", "color2 margin", 80);
             newTab(crane_search);
+            break;
         case "sort_vis":
             addLine("loading...", "color2 margin", 80);
             newTab(sort_vis);
+            break;
         case "house_estimate":
             addLine("loading...", "color2 margin", 80);
             newTab(house_estimate);
+            break;
         case "car_hp_predict":
             addLine("loading...", "color2 margin", 80);
             newTab(car_hp_predict);
+            break;
         case "gift_wrap":
             addLine("loading...", "color2 margin", 80);
             newTab(gift_wrap);
+            break;
         case "maze_code":
             addLine("loading...", "color2 margin", 80);
             newTab(maze_code);
-        
+            break;
         case "motion_space":
             addLine("loading...", "color2 margin", 80);
             newTab(motion_space);
+            break;
         case "book_display":
             addLine("loading...", "color2 margin", 80);
             newTab(book_display);
-
+            break;
         case "db_analysis":
             addLine("loading...", "color2 margin", 80);
             newTab(db_analysis)
+            break;
 
         case "cpt":
             addLine("loading...", "color2 margin", 80);
             newTab(cpt);
+            break;
+
         case "HaRSN":
             addLine("loading...", "color2 margin", 80);
             newTab(HaRSN);
-
-
-
-        case "cv":
-            addLine("loading...", "color2 margin", 80);
-            loopLines(cv, "color2 margin", 80);
             break;
+
+
+
+
+
             /* Provides email link */
         case "banner":
             loopLines(banner, "", 80);
@@ -278,8 +287,9 @@ function commander(cmd) {
             addLine("loading...", "color2 margin", 80);
             loopLines(features, "color2 margin", 80);
             break;
-            default:
-                addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>", "error", 100);
+            
+        default:
+            addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>", "error", 100);
     }
 }
 

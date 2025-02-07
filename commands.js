@@ -71,11 +71,6 @@ secret = [
     "<br>"
 ]
 
-cv = [
-    "<br>",
-    "My CV is available on request.",
-    "<br>"
-]
 
 projects = [
     "<br>",
@@ -83,9 +78,8 @@ projects = [
     "<br>",
 
     "<br>",
-    '<span class="command">motion</span> [MotionSpace]    Information about you',
-    '<span class="command">social</span>    Social media links',
-    '<span class="command">projects</span>    My projects',
+    '<span class="command">motion</span> [MotionSpace]    GitHub Repository',
+    '<span class="command">book_display</span> [Book Display Website]    GitHub Repository',
     "<br>",
     
     "<br>",
@@ -93,12 +87,12 @@ projects = [
     "<br>",
 
     "<br>",
-    '<span class="command">crane_ai</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [AI Crane Stacker] GitHub Repository',
+    '<span class="command">crane_ai</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [AI Crane Stacker] GitHub Repository',
     '<span class="command">crane_search</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Crane Random Search] GitHub Repository',
-    '<span class="command">sort_vis</span>&nbsp [Sorting Algorithm Visualizer] Takes you to GitHub Repository',
+    '<span class="command">sort_vis</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Sorting Algorithm Visualizer] GitHub Repository',
     '<span class="command">house_estimate</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [House Value Estimator] GitHub Repository',
-    '<span class="command">car_hp_predict</span> &nbsp&nbsp&nbsp [Horsepower Car Prediction] GitHub Repository',
-    '<span class="command">gift_wrap</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [gift wrapping application] GitHub Repository',
+    '<span class="command">car_hp_predict</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Horsepower Car Prediction] GitHub Repository',
+    '<span class="command">gift_wrap</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [gift wrapping application] GitHub Repository',
     '<span class="command">maze_code</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Maze Code] GitHub Repository',
     "<br>",
 
@@ -155,7 +149,6 @@ banner = [
     '<span class="color2"></span> <span class="command"></span> <span class="color2"></span>',
     
     '<span class=\"color2\">Press </span><span class=\"command\">"↑"</span> or<span class=\"color2\"></span> <span class=\"command\">"↓"</span> <span class=\"color2\">to navigate through your command history.</span>',
-    '<span class=\"color2\"></span><span class=\"command\">"cv"</span>View my CV<span class=\"color2\"></span>',
     '<span class=\"color2\"></span><span class=\"command\">"projects"</span> To see my list of projects<span class=\"color2\"></span>',
     '<span class=\"color2\"></span><span class=\"command\">"social"</span> A list of my social media platform<span class=\"color2\"></span>',
     '<span class=\"color2\"></span><span class=\"command\">"dark"</span> Access Dark Mode if you would like to :) <span class=\"color2\"></span>',
