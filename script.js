@@ -316,7 +316,10 @@ function addLine(text, style, time) {
         next.className = style;
 
         before.parentNode.insertBefore(next, before);
-        window.scrollTo(0, document.body.offsetHeight);
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
+            window.SecurityPolicyViolationEvent({ top: document.body.scrollHeight, behavior: "smooth" });
+        }
     }, time);
 }
 

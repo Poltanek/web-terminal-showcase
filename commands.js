@@ -73,44 +73,40 @@ secret = [
 
 
 projects = [
-    "<br>",
-    '<span class="javascript">Javascript Projects</span>',
-    "<br>",
 
     "<br>",
-    '<span class="command">motion</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [MotionSpace]    GitHub Repository',
-    '<span class="command">book_display</span>&nbsp&nbsp [Book Display Website]    GitHub Repository',
+    '<span class="javascript">Javascript Projects</span>',
+    '<span class="command">motion</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [MotionSpace]',
+    '<span class="command">book_display</span>&nbsp&nbsp&nbsp&nbsp [Book Display Website]',
     "<br>",
     
     "<br>",
     '<span class="python">Python Projects</span>',
+    '<span class="command">crane_ai</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp[AI Crane Stacker]',
+    '<span class="command">crane_search</span>&nbsp&nbsp&nbsp&nbsp [Crane Random Search]',
+    '<span class="command">sort_vis</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Sorting Algorithm Visualizer]',
+    '<span class="command">house_estimate</span> &nbsp [House Value Estimator]',
+    '<span class="command">car_hp_predict</span> &nbsp [Horsepower Car Prediction]',
+    '<span class="command">gift_wrap</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [gift wrapping application]',
+    '<span class="command">maze_code</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Maze Code]',
     "<br>",
-    "<br>",
-    '<span class="command">crane_ai</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp[AI Crane Stacker] GitHub Repository',
-    '<span class="command">crane_search</span>&nbsp&nbsp&nbsp&nbsp [Crane Random Search] GitHub Repository',
-    '<span class="command">sort_vis</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Sorting Algorithm Visualizer] GitHub Repository',
-    '<span class="command">house_estimate</span> &nbsp [House Value Estimator] GitHub Repository',
-    '<span class="command">car_hp_predict</span> &nbsp [Horsepower Car Prediction] GitHub Repository',
-    '<span class="command">gift_wrap</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [gift wrapping application] GitHub Repository',
-    '<span class="command">maze_code</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [Maze Code] GitHub Repository',
-    "<br>",
+
 
     "<br>",
     '<span class="databases">Oracle APEX</span>',
-    "<br>",
-
-    "<br>",
-    '<span class="command">db_analysis</span> [Database Analysis] GitHub Repository',
+    '<span class="command">db_analysis</span>&nbsp&nbsp&nbsp&nbsp&nbsp [Database Analysis]',
     "<br>",
 
     "<br>",
     '<span class="networksecurity">Network Security/Design</span>',
+    '<span class="command">cpt</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp[Cisco Packet Tracer]',
+    '<span class="command">HaRSN</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [HQ Remote Site Network]',
     "<br>",
+]
 
+skills = [
     "<br>",
-    '<span class="command">cpt</span> [Cisco Packet Tracer] GitHub Repository',
-    '<span class="command">HaRSN</span> [HQ Remote Site Network] GitHub Repository',
-    "<br>",
+    'Full-Stack Technologies'
 ]
 
 
