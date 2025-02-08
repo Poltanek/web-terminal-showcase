@@ -261,14 +261,6 @@ function commander(cmd) {
             addLine("loading...", "color2 margin", 80);
             setTheme("default-theme");
             break;
-        case "light":
-            addLine("loading...", "color2 margin", 80);
-            setTheme("light-theme");
-            break;
-        case "dark":
-            addLine("loading...", "color2 margin", 80);
-            setTheme("dark-theme");
-            break;
             
         case "request":
             break;
