@@ -136,6 +136,7 @@ function commander(cmd) {
             }, 1);
             break;
         case "aboutme":
+            addImage('assets/1BC14325-8A27-497F-B00A-D63D6F1D81DB(6).jpeg', 'terminal-profile', 500);
             loopLines(aboutme, "color2 margin", 80);
             break;
         case "whatami":
@@ -279,6 +280,10 @@ function commander(cmd) {
             addLine("loading...", "color2 margin", 80);
             loopLines(features, "color2 margin", 80);
             break;
+        case "achieved":
+            loopLines(achieved, "color2 margin", 80);
+            addImage('assets/cachedImage.png', 'terminal-image-box', 500);
+            addImage('assets/IMG_3939.jpeg', 'terminal-image-box', 500);
             
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>", "error", 100);
@@ -311,6 +316,22 @@ function addLine(text, style, time) {
 
         if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
             window.SecurityPolicyViolationEvent({ top: document.body.scrollHeight, behavior: "smooth" });
+        }
+    }, time);
+
+}
+
+function addImage(src, style, time) {
+    setTimeout(function() {
+        var img = document.createElement("img");
+        img.src = src;
+        img.className = style;
+        img.alt = "Terminal Image";
+
+        before.parentNode.insertBefore(img, before);
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
         }
     }, time);
 }

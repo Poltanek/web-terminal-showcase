@@ -194,6 +194,32 @@ a:focus {
     text-shadow: 0 0 5px #9c7aec;
 }
 
+.terminal-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 2px solid #04ff00;
+    border-radius: 5px;
+}
+
+.terminal-profile {
+    max-width: 200px;
+    height: 200px;
+    margin: 10px 0;
+    border: 2px solid #04ff00;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.terminal-image-box {
+    max-width: 500px;
+    height: 300px;
+    margin: 10px 0;
+    border: 2px solid #04ff00;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 
 
 @media only screen and (max-width: 550px) {

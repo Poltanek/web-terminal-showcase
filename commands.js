@@ -109,6 +109,14 @@ skills = [
     'Full-Stack Technologies'
 ]
 
+achieved = [
+    "<br>",
+    "Placed Top 3 Winners at the <span class=\"command\">Royal Hackaway V8</span> at Royal Holloway University of London and won £100!",
+    "Placed Top 5 for Project Design at the <span class=\"command\">Royal Hackaway V8</span> at Royal Holloway University of London",
+    "Represented for as one of the Students of University of Winchester alongside my Computing Society CodeLab  <span class=\"command\">Royal Hackaway V8</span> at Royal Holloway University of London",
+    "<br>"
+]
+
 
 themes = [
     "<br>",
@@ -121,6 +129,7 @@ themes = [
 help = [
     "<br>",
     '<span class="command">aboutme</span><span class="color2"> &nbsp&nbsp&nbsp&nbsp Information about me</span>',
+    '<span class="command">achieved</span> &nbsp&nbsp&nbsp My Achievements',
     '<span class="command">whatami</span> &nbsp&nbsp&nbsp&nbsp Information about you',
     '<span class="command">social</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Social media links',
     '<span class="command">projects</span>&nbsp&nbsp&nbsp&nbsp My projects',
