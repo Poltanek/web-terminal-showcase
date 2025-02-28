@@ -37,10 +37,14 @@ linkedin = linkedin;
 
 aboutme = [
     "<br>",
-    "Hello, I'm Adam Tanweer, a Computer Science student at the University of Winchester, I am an inspiring <span class=\"command\">Jnr Software Engineer</span>",
-
+    "Hello, I'm Adam Tanweer, a Computer Science student at the University of Winchester.",
+    "I am an aspiring <span class='command'>Junior Software Engineer</span> passionate about AI, databases, and web development.",
+    "🔹 I have hands-on experience working with <span class='command'>Python, JavaScript, Java, and SQL</span>.",
+    "🔹 My projects range from <span class='command'>AI-powered systems in Python</span> to <span class='command'>database management & design in SQL</span> and <span class='command'>interactive web applications</span>.",
+    "🔹 Currently working on Java creating a Stock Management System for Supplying Multiple Warehouses as well as viewing inventory",
     "<br>"
 ];
+
 
 whatami = [
     "<br>",
@@ -53,15 +57,6 @@ social = [
     '<span class="command">linkedin</span>    LinkedIn Profile',
     '<span class="command">github</span>    GitHub Profile',
     '<span class="command">email</span>    Email Address',
-    "<br>"
-]
-
-fun = [
-    "<br>",
-    "Some fun projects that I've done:",
-    "1. built in ascii font generator",
-    "2. built in adventure game",
-    "4. built in terminal theme changer",
     "<br>"
 ]
 
@@ -106,16 +101,23 @@ projects = [
 
 skills = [
     "<br>",
-    'Full-Stack Technologies'
-]
+    "<span class='command'>💻 Programming:</span> Python, Java, JavaScript, Golang, SQL",
+    "<span class='command'>🛠 Technologies:</span> Git, GitHub, AWS, Linux, ROS, Docker, Kubernetes",
+    "<span class='command'>📂 Database Management:</span> SQL, Oracle APEX, MongoDB",
+    "<span class='command'>🤖 AI & Machine Learning:</span> TensorFlow, Pandas, NumPy",
+    "<span class='command'>🛡 Cybersecurity & Networks:</span> UNIX/Linux Security, Firewalls",
+    "<span class='command'>📚 Coursework:</span> Software Development and Design, OOP, Operating Systems & Data Structures",
+    "<br>"
+];
+
 
 achieved = [
     "<br>",
-    "Placed Top 3 Winners at the <span class=\"command\">Royal Hackaway V8</span> at Royal Holloway University of London and won £100!",
-    "Placed Top 5 for Project Design at the <span class=\"command\">Royal Hackaway V8</span> at Royal Holloway University of London",
-    "Represented for as one of the Students of University of Winchester alongside my Computing Society CodeLab  <span class=\"command\">Royal Hackaway V8</span> at Royal Holloway University of London",
+    "🏆 <span class='command'>3rd Place</span> - The Royal Hackaway 2025 (Overall Winner)",
+    "🏆 <span class='command'>5th Place</span> - Best Project Design at The Royal Hackaway 2025",
+    "💡 Project: Takes Two to Tango - Multiplayer LinkedIn-inspired game.",
     "<br>"
-]
+];
 
 
 themes = [
@@ -131,24 +133,37 @@ help = [
     '<span class="command">aboutme</span><span class="color2"> &nbsp&nbsp&nbsp&nbsp Information about me</span>',
     '<span class="command">achieved</span> &nbsp&nbsp&nbsp My Achievements',
     '<span class="command">whatami</span> &nbsp&nbsp&nbsp&nbsp Information about you',
+    '<span class="command">education</span>&nbsp&nbsp&nbsp My Education',
     '<span class="command">social</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Social media links',
-    '<span class="command">projects</span>&nbsp&nbsp&nbsp&nbsp My projects',
+    '<span class="command">projects</span>&nbsp&nbsp&nbsp&nbsp My Projects',
+    '<span class="command">societies</span>&nbsp&nbsp&nbsp Communities I have participated with',
     '<span class="command">help</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp List of commands',
-    '<span class="command">skills</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp My skills',
+    '<span class="command">skills</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp My Skills',
     '<span class="command">history</span> &nbsp&nbsp&nbsp&nbsp View command history',
     '<span class="command">clear</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Clear the terminal',
     '<span class="command">banner</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp View the "welcome" messsage',
     '<span class="command">themes</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp List of terminal themes',
-    '<span class="command">fun</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Display fun projects',
-    '<span class="command">cat</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Display the contents of a file',
     '<span class="command">secret</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Display secret commands',
-    '<span class="command">donate</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Buy me a coffee',
     "<br>"
 ]
 
-donate = [
-    "If you like what you see, consider buying me a coffee!  <a href=" + donate + "'>https://buymeacoffee.com/</a>"
-]
+societies = [
+    "<br>",
+    "👨‍💻 <span class='command'>Founder & Captain</span> of CodeLab Computing Society",
+    "🎓 <span class='command'>Deputy Chair of Academics </span> - Supporting Chair of Academics on Digital Technology & Business Programmes",
+    "📢 <span class='command'>StAR (Student Academic Representative)</span> - Digital Technology & Business Programmes",
+    "<br>"
+];
+
+education = [
+    "<br>",
+    "🎓 <span class='command'>University of Winchester</span> - BSc Computer Science",
+    "📍 Hampshire, Winchester | GPA: 3.5/4.0",
+    "📚 Minor: Mathematics & Statistics",
+    "<br>"
+];
+
+
 banner = [
     '<h1 class="index"></h1>',
 
@@ -160,12 +175,3 @@ banner = [
     '<span class=\"color2\">Press </span><span class=\"command\">"↑"</span> or<span class=\"color2\"></span> <span class=\"command\">"↓"</span> <span class=\"color2\">to navigate through your command history.</span>',
 
 ];
-
-features = [
-    "<br>",
-    "Features of this terminal:",
-    "1. Custom commands",
-    "2. Custom themes",
-    "3. Command history",
-    "<br>"
-]

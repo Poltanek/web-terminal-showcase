@@ -211,24 +211,6 @@ function commander(cmd) {
         case "banner":
             loopLines(banner, "", 80);
             break;
-            /* Simulates a password prompt */
-        case "pwd":
-            addLine("visitor@localhost:~", "no-animation", 0);
-            break;
-            /* Displays a list of files/folders */
-        case "ls":
-            addLine("scripts", "no-animation", 0);
-            break;
-            /* Changes the directory to the scripts directory */
-        case "cd scripts":
-            currentDirectory = "scripts";
-            addLine("visitor@localhost:~/scripts", "no-animation", 0);
-            break;
-            /* Changes the directory back to the root directory */
-        case "cd ..":
-            currentDirectory = "";
-            addLine("visitor@localhost:~", "no-animation", 0);
-            break;
             /* Provides a list of historic commands that the visitor/user has used */
         case "history":
             commands.forEach(function(item, index) 
@@ -280,10 +262,26 @@ function commander(cmd) {
             addLine("loading...", "color2 margin", 80);
             loopLines(features, "color2 margin", 80);
             break;
+
         case "achieved":
             loopLines(achieved, "color2 margin", 80);
             addImage('assets/cachedImage.png', 'terminal-image-box', 500);
             addImage('assets/IMG_3939.jpeg', 'terminal-image-box', 500);
+            addImage('assets/IMG_4079.jpeg', 'terminal-image-box', 500);
+            addImage('assets/IMG_4080.jpeg', 'terminal-image-box', 500);
+
+        case "MorePictures":
+            loopLines(MoreInformation, "color2 margin", 80);
+            addImage
+
+        case "checkpassword":
+            checkPasswordStrength();
+
+        case "societies":
+            loopLines(societies, "color2 margin", 80);
+        
+        case "education":
+            loopLines(education, "color2 margin", 80);
             
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>", "error", 100);
@@ -334,6 +332,19 @@ function addImage(src, style, time) {
             window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
         }
     }, time);
+}
+
+function checkPasswordStrength(command) {
+    let password = command.split(" ")[1];
+    let strength = "Weak";
+
+    if (password.length > 12 && /\d/.test(password) && /[!@#$%^&*]/.test(password)) {
+        strength = "Strong";
+    } else if (password.length > 8) {
+        strength = "Medium";
+    }
+
+    addLine(`🔐 Password Strength: ${strength}`, "color2 margin", 100);
 }
 
 function loopLines(name, style, time) {

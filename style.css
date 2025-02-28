@@ -212,6 +212,7 @@ a:focus {
 }
 
 .terminal-image-box {
+    display: block;
     max-width: 500px;
     height: 300px;
     margin: 10px 0;
