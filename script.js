@@ -343,6 +343,7 @@ function addVideo(src, style, time) {
         video.autoplay = true;
         video.loop = true;
         video.muted = true;
+        video.setAttribute("muted", "")
 
         var source = document.createElement("source");
         source.src = src;
