@@ -1,6 +1,6 @@
 // Author: Poltanek
 // Version: 1.0
-// This is a simple script that will be used to simulate a terminal on the website.
+// This is a comphrensive script that will be used to simulate a terminal on the website.
 // It will be used to display information about me, my projects, and other things.
 // It will also be used to simulate a password prompt.
 
@@ -265,11 +265,11 @@ function commander(cmd) {
 
         case "achieved":
             loopLines(achieved, "color2 margin", 80);
+            addVideo('assets/Recording 2025-02-09 110440.mp4', 'terminal-image-box', 1300);
             addImage('assets/cachedImage.png', 'terminal-image-box', 500);
             addImage('assets/IMG_3939.jpeg', 'terminal-image-box', 500);
             addImage('assets/IMG_4079.jpeg', 'terminal-image-box', 500);
             addImage('assets/IMG_4080.jpeg', 'terminal-image-box', 500);
-
         case "MorePictures":
             loopLines(MoreInformation, "color2 margin", 80);
             addImage
@@ -330,6 +330,33 @@ function addImage(src, style, time) {
 
         if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
             window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+        }
+    }, time);
+}
+
+function addVideo(src, style, time) {
+    setTimeout(function() {
+        var video = document.createElement("video");
+        video.src = src;
+        video.className = style;
+        video.controls = true;
+        video.autoplay = true;
+        video.loop = true;
+        video.muted = true;
+
+        var source = document.createElement("source");
+        source.src = src;
+        source.type = "video/mp4";
+        video.appendChild(source);
+
+        if (before && before.parentNode) {
+            before.parentNode.insertBefore(video, before);
+        } else {
+            console.error("Error: 'before' element not found.");
+        }
+
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
+            window.scrollTo({top: document.body.scrollHeight, behavior: "smooth" });
         }
     }, time);
 }
